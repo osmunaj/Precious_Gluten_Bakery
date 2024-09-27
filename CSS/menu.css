@@ -1,0 +1,68 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  padding: 30px;
+}
+.bread {
+  background-image: url("../Images/bread-light.jpg");
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 1em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.cake {
+  background-image: url("../Images/light-cake.jpg");
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 1em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+}
+.pastry {
+  background-image: url("../Images/pastries-light.jpg");
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 1em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.col {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.label h3 {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+}
+.description {
+  text-align: center;
+  color: grey;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.price {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

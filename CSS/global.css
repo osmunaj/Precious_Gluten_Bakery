@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0px;
+}
+img{
+    border-radius: 20px;
+}
+h1, h2{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 3em;
+    color: #403123;
+}
+h3{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 1em;
+}
+
+.infoBox{
+    width: 32%;
+    height: 20em;
+    padding: 15px;
+    margin: 8px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+    
+}
+.textCenter{
+    text-align: center;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.indexFooter{
+    clear: both;
+    width: 100%;
+    background-color: #EEE3CB;
+    border: 1px solid black;
+    height: 150px;
+}
+.footerBlock{
+    display: block;
+    display: inline-block;
+    width: 30em;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
